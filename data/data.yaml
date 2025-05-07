@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bottle', 'Cap', 'Label']
+
+roboflow:
+  workspace: leonardo-njwm5
+  project: objdet-onh3x
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leonardo-njwm5/objdet-onh3x/dataset/7
